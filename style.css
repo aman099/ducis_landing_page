@@ -1308,7 +1308,8 @@ footer#footer ul li a:hover {
 		display: flex;
 		justify-content: space-between;
 		/*  */
-		padding: 10px 30px;
+		/* padding: 10px 30px; */
+		padding: 10px 24px;
 		color: #000;
 		border-bottom: 0.1px solid #bfbbbb;
 		border-top: 0.01px solid #bfbbbb;
@@ -1658,6 +1659,11 @@ footer#footer ul li a:hover {
 	.over-ul ul li {
 		font-size: 14px;
 	}
+	/*  */
+	.hammy-dd ul.father-ul li {
+		font-size: 16px;
+		font-weight: 600;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -1749,6 +1755,9 @@ footer#footer ul li a:hover {
 	}
 }
 @media only screen and (max-width: 400px) {
+	.navbar-container nav {
+		padding-left: 0.5rem;
+	}
 	.navbar-2-cont nav ul {
 		padding: 0;
 	}
@@ -1908,6 +1917,15 @@ footer#footer ul li a:hover {
 	/*  */
 	.disclaimer p {
 		padding: 0 10px;
+	}
+	/*  */
+	.hammy-dd ul.father-ul li {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	/*  */
+	.hammy-dd ul.father-ul li {
+		padding: 10px 18px;
 	}
 }
 
