@@ -1905,6 +1905,10 @@ footer#footer ul li a:hover {
 	.request-info {
 		padding-top: 10px;
 	}
+	/*  */
+	.disclaimer p {
+		padding: 0 10px;
+	}
 }
 
 @media only screen and (max-width: 350px) {
@@ -1955,5 +1959,9 @@ footer#footer ul li a:hover {
 	.footer-input input {
 		width: 80%;
 		height: 100%;
+	}
+	/*  */
+	.disclaimer p {
+		padding: 0 16px;
 	}
 }
