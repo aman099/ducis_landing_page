@@ -49,3 +49,40 @@ offering.addEventListener("click", () => {
 	offeringContent.style.display = "none";
 	offering.classList.remove("active");
 });
+
+// Hamburger menu
+const hammyDD = document.querySelector(".hammy-dd");
+const faX = document.querySelector(".fa-x");
+const hamburgerIcon = document.querySelector(".fa-bars");
+
+hamburgerIcon.addEventListener("click", () => {
+	hammyDD.style.display = "block";
+	hamburgerIcon.classList.add("active");
+	faX.classList.add("active");
+});
+faX.addEventListener("click", () => {
+	hammyDD.style.display = "none";
+	hamburgerIcon.classList.remove("active");
+	faX.classList.remove("active");
+});
+
+// Individual Menu DD
+const aboutMenu = document.querySelector(
+	".hammy-dd ul.father-ul li.father-about"
+);
+const hamAboutDD = document.querySelector(".ham-about-dd");
+
+aboutMenu.addEventListener("click", () => {
+	aboutMenu.classList.toggle("active");
+	hamAboutDD.classList.toggle("activate");
+});
+
+const offeringMenu = document.querySelector(
+	".hammy-dd ul.father-ul li.father-offering"
+);
+const hamOfferingDD = document.querySelector(".ham-offering-dd");
+
+offeringMenu.addEventListener("click", () => {
+	offeringMenu.classList.toggle("active");
+	hamOfferingDD.classList.toggle("activate");
+});
