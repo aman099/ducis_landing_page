@@ -1530,7 +1530,8 @@ footer#footer ul li a:hover {
 		margin-left: 30px;
 	}
 	.get-started-left h3 {
-		white-space: wrap;
+		/* white-space: wrap; */
+		white-space: pre-wrap;
 		font-size: 30px;
 	}
 	/*  */
